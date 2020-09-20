@@ -1,19 +1,19 @@
 #!/bin/bash
 
-GITHUB_USER=Akianonymus
-GITHUB_EMAIL=anonymus.aki@gmail.com
+GITHUB_USER=Alexander
+GITHUB_EMAIL=yaalex@yaalex.tk
 
-KBUILD_BUILD_USER="Aki"
-KBUILD_BUILD_HOST="A_DEAD_PLANET"
+KBUILD_BUILD_USER="YaAlex"
+KBUILD_BUILD_HOST="sad"
 
-export oem=motorola
-export device=harpia
+export oem=asus
+export device=Z010D
 
 ROM="PixelExperience"
-manifest_url="https://github.com/PixelExperience/manifest"
-export rom_vendor_name="aosp" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
-branch="pie"
+manifest_url="https://github.com/LineageOS/android"
+export rom_vendor_name="lineage" # This represent the nams used by different rom vendors, Ex - aosp_harpia-userdebug, aosp is vendor name.
+branch="lineage-17.1"
 
-release_repo="Akianonymus/harpia_builds"
+release_repo="YaAlex3/lineage_OTA"
 
 timezone="Asia/Kolkata"
